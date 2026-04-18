@@ -12,9 +12,10 @@ html{
 
 body{
    /* Pastikan dasarnya hitam */
-   max-width: 100%;
+    width: 100%;
    height:100vh ;
   background-image:url("/daftar-chill/daftar-img/Untitled.png") ; 
+   
     font-family: "Inter", sans-serif;
   background-color:black;
   background-size:cover;
@@ -23,7 +24,7 @@ body{
   color:#FFFFFF;
  display: flex;
  justify-content: center;
- align-items:center;
+ align-items: center;
 
 }
 
@@ -39,8 +40,6 @@ main{
    justify-content: center;
    box-sizing:border-box;
    border-radius:1.6rem;
-   gap: 3.7rem;
-
    
 }
 
@@ -63,9 +62,8 @@ h1{
   
     font-size: 3.2rem;
     font-weight: bold;
-    margin-bottom:0.8rem;
 }
-header p{
+header>p{
     font-size: 1.6rem;
 }
 
@@ -73,13 +71,13 @@ header p{
 
 /* form(input-username,input-password,daftar-akun,masuk-google) */
 form{
-   
-  
+    margin-top: 3.7rem;
+    gap:3.7rem;
 display: flex;
 flex-direction: column;
 
     align-items: center;
- gap: 3.7rem;
+ 
 }
 
 /* element label */
@@ -100,48 +98,26 @@ input{
     border: 1px solid #3D4142;
     box-sizing:border-box;
     padding:2rem 1.4rem ;
-   cursor: pointer;
+    -webkit-border-radius: 2.4rem;
+    -moz-border-radius: 2.4rem;
+    -ms-border-radius: 2.4rem;
+    -o-border-radius: 2.4rem;
 }
 
-input:hover{
-    border: 1px solid #FFFFFF;
-    padding: 1rem;
-}
-
-
-.password-list{
-    position:relative;
-    z-index: 0;
-}
-.eye-off{
-    position: absolute;
-    height: 2rem;
-    width: 2rem;
-  margin-top: -3.4rem;
-  margin-left:40rem;
-
-
-    z-index:1;
-
-} 
-
-/* daftar-list */
-.list-masuk{
- 
-    font-size: 1.4rem;
+/* box setup */
+.box-setup{
       width:44.9rem;
     display: flex;
     justify-content:space-between;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
 height: 2.2rem;
  color: #C1C2C4;
 }
 
 /* element a (link) */
-#masuk{
-    font-size: 1.4rem;
+#daftar,#lupa-password{
     color: #FFFFFF;
-   text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -159,16 +135,8 @@ height: 2.2rem;
     color: #C1C2C4;
  
 }
-button:hover{
-    background-color:rgba(231, 227, 252, 0.23);
-    border: 1px solid #FFFFFF;
-    
-}
-button:focus{
-    background-color: #C1C2C4;
-  color: #3D4142;
-border: 1.5px solid #161919;
-}
+
+
 
 /* .button masuk */
 .button-masuk{
@@ -176,24 +144,22 @@ border: 1.5px solid #161919;
    width: 44.9rem;
    height: 5rem;
    border-radius: 2.4rem;
-    background-color:rgba(231, 227, 252, 0.1);
-   color:#FFFFFF;
+   background-color: #3D4142;
+   color: #FFFFFF;
    font-weight: bold;
    box-sizing: border-box;
    border: 1px solid #3D4142;
-  cursor: pointer;
+   -webkit-border-radius: 2.4rem;
+   -moz-border-radius: 2.4rem;
+   -ms-border-radius: 2.4rem;
+   -o-border-radius: 2.4rem;
 }
-/* elemnt p(atau) */
-.atau{
-    font-size: 1.4rem;
-}
-
 
 /* button masuk google */
 .button-masuk_google{
     border: 1px solid #3D4142;
     color: #FFFFFF;
-  cursor: pointer;
+  
     background-color:rgba(231, 227, 252, 0.1);
     padding: 1.4rem 1.4rem;
     width: 45rem;
@@ -204,16 +170,11 @@ border: 1.5px solid #161919;
 display: flex;
 justify-content: center;
 
+
 }
-
-
-/*img button */
 .button-masuk_google >img{
     width: 1.8rem;
     height: 1.8rem
-
-   /* span button */
-    
 }
 .button-masuk_google >span{
     display: block;
@@ -227,18 +188,9 @@ justify-content: center;
 
 
 
-
+/* 
 /* responsive */
-
-
-/* responsiv md */
-@media screen and (max-width:1024px) {
-   html{
-    font-size: 8px;
-  
-   }
-    
-}
+/* 
 @media screen and (max-width:768px) {
    html{
     font-size: 7px;
@@ -246,8 +198,6 @@ justify-content: center;
    }
     
 }
-
-/* responsiv sm */
 @media screen and (max-width:640px) {
    html{
    font-size: 5px;
@@ -256,24 +206,24 @@ justify-content: center;
    
 }
     
-/* responsiv untuk mobile */
+
 @media screen and (max-width:361px) {
- 
+   html{
+    font-size: 3px;
+  
+   }
  
 
    main{
+   margin-top: 80px;
    width: 306px;
-   height: 452px;
+   height: 452.28px;
    border-radius:16px ;
    gap: 20px;
-   padding: 24px 24px;
-  
 }
 header{
     
-   
-    gap: 15px;
-  
+    gap: 20px;
 }
 header>img{
     width: 94px;
@@ -281,69 +231,31 @@ header>img{
 
 }
 
-header h1{
-    font-size: 18px;
-    margin-bottom: 4px;
+header>h1{
+    font-size: 15px;
     
 }
 
-header p{
+header>p{
     font-size: 10px;
 }
 
-
-form{
-gap: 20px;
-}
    input{
-   width: 258px;
-   height: 28px;
-   font-size: 10px;
-   border-radius:12px ;
-   
-}
-.eye-off{
-    margin-left: 230px;
-}
-
-label{
-    font-size: 10px;
+    width: 258px;
+    height: 28px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
-.daftar-list{
-    font-size: 8px;
-
-}
-
-#masuk{
-    font-size: 8px;
-}
-
-
-.atau{
-    font-size: 9px;
-}
 .button-masuk,.button-masuk_google{
     width: 258px;
     height: 30px;
     border-radius: 14px;
     font-size: 10px;
-    padding: 7px ;
    
 }
-.box-button{
-    margin-top: 20px;
-}
-   .button-masuk_google span{
-font-size: 10px;
-width: max-content;
-   } 
-.button-masuk_google img{
-    width: 11px;
-   height: 12px;
-   margin-right: 10px
-   ;
-}
-}
-
- 
+    
+} */ 
