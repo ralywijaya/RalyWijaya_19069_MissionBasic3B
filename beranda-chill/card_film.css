@@ -1,0 +1,168 @@
+/* section melanjutkan tontonan film */
+
+.melanjutkan-tonton-film{
+/* width:36rem;
+height: auto;
+padding:2rem 2rem; */
+  width:100%;
+height: auto;
+padding: 2rem 1rem;
+
+}
+
+.melanjutkan-tonton-film h2{
+    font-size: 1.8rem;
+    line-height: 120%;
+    font-style: bold;
+}
+.card-film-tontonan{
+    /* width:36rem;
+    overflow: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between; */
+       overflow: auto;
+    display: flex;
+   
+ 
+   justify-content: space-evenly;
+  
+}
+.card-film-tontonan img {
+    width: 36rem;
+    height: auto;
+    margin-top:2rem;
+    position: relative;
+}
+
+/* box anak panah */
+.anak_panah{
+   width: 100vw;
+    padding:0;
+  margin-top: 10%;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+.anak_panah,.anak_panah_groub img{
+  
+    height: auto;
+    display: none;
+}
+
+
+/*section top rating film */
+
+.top-rating-film{
+    width:100%;
+height: auto;
+padding: 2rem 1rem;
+}
+
+.top-rating-film h2{
+   font-size: 1.8rem;
+    line-height: 120%;
+    font-style: bold;   
+
+
+}
+
+.card-film-top{
+       overflow: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content:space-evenly;
+}
+
+.card-film-top img {
+    width:9.5rem;
+    height: auto;
+    margin-top:2rem;
+    position: relative;
+}
+
+.anak_panah img{
+    width:3rem ;
+    height: auto;
+}
+
+
+
+
+
+/* section film Rilis terbaru */
+.film-rilis{
+    width:100%;
+height: auto;
+padding: 2rem 1rem;
+}
+
+.card-film-rilis h2{
+   font-size: 1.8rem;
+    line-height: 120%;
+    font-style: bold;   
+
+
+}
+
+.card-film-rilis{
+       overflow: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.card-film-rilis img {
+    width:9.5rem;
+    height: auto;
+    margin-top:2rem;
+    position: relative;
+}
+
+.anak_panah img{
+    width:3rem ;
+    height: auto;
+}
+/* section film tranding */
+.film-tranding{
+    width:100%;
+height: auto;
+padding: 2rem 1rem;
+}
+
+.card-film-tranding h2{
+   font-size: 1.8rem;
+    line-height: 120%;
+    font-style: bold;   
+
+
+}
+
+.card-film-tranding{
+       overflow: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.card-film-tranding img {
+    width:9.5rem;
+    height: auto;
+    margin-top:2rem;
+    position: relative;
+}
+
+.anak_panah img{
+    width:3rem ;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+

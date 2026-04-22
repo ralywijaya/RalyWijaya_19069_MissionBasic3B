@@ -125,28 +125,42 @@ input:hover{
 
 } 
 
+
+/* box conditional */
+.condtional{
+    display: flex;
+    justify-content: space-between;
+      margin-top: 0.7rem;
+}
+
 /* daftar-list */
-.list-masuk{
+.list-daftar{
  
     font-size: 1.4rem;
-      width:44.9rem;
-    display: flex;
-    justify-content:space-between;
-    margin-top: 0.7rem;
+    
+  
+   
+  
 height: 2.2rem;
  color: #C1C2C4;
 }
 
+
+
 /* element a (link) */
-#masuk{
+.condtional a{
     font-size: 1.4rem;
     color: #FFFFFF;
    text-decoration: none;
 }
-
-#masuk:hover{
+a:hover{
    color: #C1C2C4;
 }
+
+
+
+
+
 
 /* box-button */
 .box-button{
@@ -231,18 +245,17 @@ justify-content: center;
 /* responsive */
 
 
-/* responsiv large */
-@media screen and (max-width:1280px) {
+/* responsiv md */
+@media screen and (max-width:1024px) {
    html{
-    font-size: 7px;
+    font-size: 8px;
   
    }
-
-    /* responsiv md */
+    
 }
 @media screen and (max-width:768px) {
    html{
-    font-size: 6px;
+    font-size: 7px;
   
    }
     
