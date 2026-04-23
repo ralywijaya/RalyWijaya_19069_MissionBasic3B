@@ -1,9 +1,21 @@
 /* section melanjutkan tontonan film */
+.container-card{
+    width: 100vw;
+    height: auto;
+}
 
+.container-card img{
+  transition: all 0.7ms ease-in-out;
+  cursor: pointer;
+  
+}
+
+.container-card img:hover{
+    padding: 0.2rem;
+ 
+}
 .melanjutkan-tonton-film{
-/* width:36rem;
-height: auto;
-padding:2rem 2rem; */
+
   width:100%;
 height: auto;
 padding: 2rem 1rem;
@@ -11,16 +23,11 @@ padding: 2rem 1rem;
 }
 
 .melanjutkan-tonton-film h2{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 120%;
     font-style: bold;
 }
 .card-film-tontonan{
-    /* width:36rem;
-    overflow: auto;
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between; */
        overflow: auto;
     display: flex;
    
@@ -39,11 +46,15 @@ padding: 2rem 1rem;
 .anak_panah{
    width: 100vw;
     padding:0;
-  margin-top: 10%;
+  margin-top: 5%;
     position:absolute;
     display: flex;
     justify-content: space-between;
 
+}
+.anak_panah img{
+    width:3rem ;
+    height: auto;
 }
 .anak_panah,.anak_panah_groub img{
   
@@ -52,16 +63,19 @@ padding: 2rem 1rem;
 }
 
 
+
+
 /*section top rating film */
 
 .top-rating-film{
     width:100%;
 height: auto;
 padding: 2rem 1rem;
+margin-top: 2rem;
 }
 
 .top-rating-film h2{
-   font-size: 1.8rem;
+   font-size: 1.4rem;
     line-height: 120%;
     font-style: bold;   
 
@@ -82,14 +96,6 @@ padding: 2rem 1rem;
     position: relative;
 }
 
-.anak_panah img{
-    width:3rem ;
-    height: auto;
-}
-
-
-
-
 
 /* section film Rilis terbaru */
 .film-rilis{
@@ -99,7 +105,7 @@ padding: 2rem 1rem;
 }
 
 .card-film-rilis h2{
-   font-size: 1.8rem;
+   font-size: 1.4rem;
     line-height: 120%;
     font-style: bold;   
 
@@ -120,10 +126,6 @@ padding: 2rem 1rem;
     position: relative;
 }
 
-.anak_panah img{
-    width:3rem ;
-    height: auto;
-}
 /* section film tranding */
 .film-tranding{
     width:100%;
@@ -132,7 +134,7 @@ padding: 2rem 1rem;
 }
 
 .card-film-tranding h2{
-   font-size: 1.8rem;
+   font-size: 1.4rem;
     line-height: 120%;
     font-style: bold;   
 
@@ -153,10 +155,7 @@ padding: 2rem 1rem;
     position: relative;
 }
 
-.anak_panah img{
-    width:3rem ;
-    height: auto;
-}
+
 
 
 

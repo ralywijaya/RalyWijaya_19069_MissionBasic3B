@@ -1,0 +1,123 @@
+
+
+@media screen and (min-width:400px){
+  html{
+    font-size:11px;
+  }
+}
+
+@media screen and (min-width:640px){
+  html{
+    font-size:13px;
+  }
+}
+
+@media screen and (min-width:786px){
+  html{
+    font-size:15px;
+  }
+
+  nav ul{
+    gap:3rem;
+    margin-left: 3rem;
+  }
+
+  .hero-description{
+    width:50rem;
+    margin-top:-14rem;
+    margin-left:7rem;
+  }
+
+  .hero-paraf p{
+    width:36rem;
+    height:7rem;
+    overflow:auto;
+  }
+
+  .card-film-tontonan img{
+    width:20rem;
+  }
+
+  .card-film-top img{
+    width:15rem;
+  }
+
+  .card-film-tranding img{
+    width:15rem;
+  }
+
+  .card-film-rilis img{
+    width:15rem;
+  }
+
+  .anak_panah{
+    display:flex;
+  }
+
+  .anak_panah img{
+    display:block;
+    width:3rem;
+  }
+
+  .anak_panah_groub img{
+    display:block;
+    width:3rem;
+  }
+
+  .anak_panah_groub{
+    width:100vw;
+    margin-top:13%;
+    position:absolute;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+  }
+
+  .hak-cipta{
+    width:30vw;
+  }
+
+  .genre{
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    width:50vw;
+  }
+
+  .genre-list{
+    display:flex;
+    width:fit-content;
+    gap:3rem;
+    color:#C1C2C4;
+    font-size:1rem;
+  }
+
+  .bantuan{
+    flex-direction:column;
+    justify-content:start;
+    width:20vw;
+    margin-left:3rem;
+  }
+
+  .bantuan-list{
+    display:block;
+    flex-direction:column;
+    color:#C1C2C4;
+    font-size:1rem;
+  }
+
+  .bantuan img{
+    display:none;
+  }
+
+  .genre img{
+    display:none;
+  }
+}
+

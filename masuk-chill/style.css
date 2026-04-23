@@ -246,12 +246,11 @@ justify-content: center;
 
 
 /* responsiv md */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1280px) {
    html{
-    font-size: 8px;
+    font-size: 7px;
   
    }
-    
 }
 @media screen and (max-width:768px) {
    html{
